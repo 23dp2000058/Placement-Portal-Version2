@@ -1,0 +1,59 @@
+# --- Python essentials to ignore ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Database (You said you don't want these committed) ---
+*.db
+*.sqlite3
+instance/
+
+# --- IDE/System junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Frontend junk (Vue/Node) ---
+node_modules/
+dist/
+.env.local
+
+ OS-specific junk
+ehthumbs.db
+Desktop.ini
+
+# Python packaging / virtualenv extras
+*.egg
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Logs and coverage
+*.log
+coverage/
+htmlcov/
+
+# Testing
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Frontend extras
+*.tsbuildinfo
+.eslintcache
+.cache/
